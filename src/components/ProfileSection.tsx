@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Github, Linkedin, Twitter, MapPin, Mail, ArrowRight, Award, FolderKanban, CheckCircle } from 'lucide-react';
+import { Github, Linkedin, Instagram, MapPin, Mail, ArrowRight, Award, FolderKanban, CheckCircle } from 'lucide-react';
 import { Profile, Project, Experience } from '../types';
 
 interface ProfileSectionProps {
@@ -123,15 +123,15 @@ export default function ProfileSection({
                     <Linkedin className="h-4 w-4" />
                   </a>
                 )}
-                {profile.twitter && (
+                {profile.instagram && (
                   <a
-                    href={profile.twitter}
+                    href={profile.instagram}
                     target="_blank"
                     rel="noreferrer noopener"
                     className="p-3 text-white/50 hover:text-white bg-transparent border border-white/10 hover:border-white/30 rounded-full transition-all"
-                    title="Twitter"
+                    title="Instagram"
                   >
-                    <Twitter className="h-4 w-4" />
+                    <Instagram className="h-4 w-4" />
                   </a>
                 )}
               </div>

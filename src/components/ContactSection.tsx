@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Send, CheckCircle2, Mail, MapPin, Github, Linkedin, Twitter, MessageSquareWarning } from 'lucide-react';
+import { Send, CheckCircle2, Mail, MapPin, Github, Linkedin, Instagram, MessageSquareWarning } from 'lucide-react';
 import { Profile, ContactMessage } from '../types';
 
 interface ContactSectionProps {
@@ -44,24 +44,21 @@ export default function ContactSection({ profile, onSendMessage }: ContactSectio
     setFormErrors({});
     setIsSubmitting(true);
 
-    // Simulate network delay
     setTimeout(() => {
-      onSendMessage({
-        name: formData.name,
-        email: formData.email,
-        subject: formData.subject,
-        message: formData.message
-      });
+      const subject = encodeURIComponent(formData.subject);
+      const body = encodeURIComponent(
+        `Halo Rezal,%0D%0A%0D%0ANama: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0A${formData.message}`
+      );
+      window.location.href = `mailto:${profile.email}?subject=${subject}&body=${body}`;
 
       setIsSubmitting(false);
       setSubmitSuccess(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
 
-      // Reset success state after 5 seconds
       setTimeout(() => {
         setSubmitSuccess(false);
       }, 5000);
-    }, 1200);
+    }, 800);
   };
 
   return (
@@ -145,14 +142,15 @@ export default function ContactSection({ profile, onSendMessage }: ContactSectio
                     <Linkedin className="h-4 w-4" />
                   </a>
                 )}
-                {profile.twitter && (
+                {profile.instagram && (
                   <a
-                    href={profile.twitter}
+                    href={profile.instagram}
                     target="_blank"
                     rel="noreferrer noopener"
                     className="p-3 text-white/50 hover:text-white bg-transparent border border-white/10 hover:border-white/30 rounded-full transition-all"
+                    title="Instagram"
                   >
-                    <Twitter className="h-4 w-4" />
+                    <Instagram className="h-4 w-4" />
                   </a>
                 )}
               </div>
