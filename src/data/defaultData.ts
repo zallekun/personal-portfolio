@@ -56,7 +56,7 @@ export const defaultPortfolioData: PortfolioData = {
       image: 'https://www.image2url.com/r2/default/images/1782765384917-7b0a7054-c616-4796-96d3-fcb7637ba151.jpg',
       category: 'Web',
       tags: ['HTML', 'CSS', 'PHP'],
-      demoUrl: 'https://example.com',
+      demoUrl: '',
       githubUrl: 'https://github.com/zallekun/top-up-game',
       featured: false,
     },
