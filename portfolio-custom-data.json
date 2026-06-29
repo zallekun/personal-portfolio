@@ -1,0 +1,207 @@
+{
+  "profile": {
+    "name": "Rezal Suryadi Putra",
+    "title": "Full-Stack Developer",
+    "bio": "Mahasiswa Teknik Informatika tingkat akhir di Universitas Jenderal Achmad Yani dengan pengalaman 2 tahun sebagai Asisten Dosen Praktikum. Berfokus pada pengembangan web full-stack dengan keahlian PHP, Laravel, JavaScript, dan Java.",
+    "location": "Bandung, Indonesia",
+    "email": "suryadirezal@gmail.com",
+    "github": "https://github.com/zallekun",
+    "linkedin": "https://www.linkedin.com/in/rezalsuryadiputra/",
+    "twitter": "https://twitter.com",
+    "avatarUrl": "https://www.image2url.com/r2/default/images/1782765548362-eafea67f-1d34-4c4c-bea0-e664f42e4e55.jpeg",
+    "greeting": "Halo, saya Rezal. Saya suka membangun aplikasi web yang bersih dan fungsional.",
+    "roles": [
+      "Full-Stack Developer",
+      "Backend Developer",
+      "UI/UX Designer"
+    ],
+    "stats": [
+      {
+        "label": "Tahun Pengalaman",
+        "value": "2+"
+      },
+      {
+        "label": "Proyek",
+        "value": "3+"
+      },
+      {
+        "label": "Klien",
+        "value": "1+"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "s1",
+      "name": "HTML & CSS",
+      "category": "Frontend",
+      "level": 90,
+      "iconName": "Code"
+    },
+    {
+      "id": "s2",
+      "name": "PHP",
+      "category": "Backend",
+      "level": 85,
+      "iconName": "Code"
+    },
+    {
+      "id": "s3",
+      "name": "Laravel",
+      "category": "Backend",
+      "level": 95,
+      "iconName": "Code"
+    },
+    {
+      "id": "s4",
+      "name": "CodeIgniter 4",
+      "category": "Backend",
+      "level": 85,
+      "iconName": "Code"
+    },
+    {
+      "id": "s5",
+      "name": "Java",
+      "category": "Backend",
+      "level": 75,
+      "iconName": "Server"
+    },
+    {
+      "id": "s6",
+      "name": "MySQL",
+      "category": "Backend",
+      "level": 85,
+      "iconName": "Database"
+    },
+    {
+      "id": "s7",
+      "name": "UI/UX Design (Figma)",
+      "category": "Design",
+      "level": 80,
+      "iconName": "Palette"
+    },
+    {
+      "id": "s8",
+      "name": "Git & GitHub",
+      "category": "Tools",
+      "level": 90,
+      "iconName": "GitBranch"
+    },
+    {
+      "id": "s9",
+      "name": "Docker & CI/CD",
+      "category": "Tools",
+      "level": 70,
+      "iconName": "Settings"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Website Pengiriman Surat di FSI UNJANI",
+      "description": "Web pengiriman surat digital untuk mempermudah mahasiswa dalam pengajuan surat.",
+      "longDescription": "Website pengiriman surat digital di Fakultas Sains dan Informatika UNJANI. Proyek ini dibuat sebagai syarat lulus mata kuliah Kerja Praktik semester 7. Aplikasi mencakup pengajuan 3 jenis surat: Surat Mahasiswa Aktif, Surat Kerja Praktik, dan Surat Tugas Akhir.",
+      "image": "https://www.image2url.com/r2/default/images/1782765260854-b744b8e3-6dc0-4bb4-b947-c7e03255a05c.jpg",
+      "category": "Web",
+      "tags": [
+        "Laravel"
+      ],
+      "demoUrl": "",
+      "githubUrl": "https://github.com/zallekun/Sistem-Surat",
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "title": "Website Data Pegawai",
+      "description": "CRUD data pegawai dengan CodeIgniter 4.",
+      "longDescription": "Aplikasi web CRUD data jabatan dan pegawai menggunakan CodeIgniter 4 sebagai framework backend-nya. Fitur utama meliputi login, manajemen data jabatan, dan manajemen data pegawai.",
+      "image": "https://www.image2url.com/r2/default/images/1782765170646-3606b588-cc79-4e34-8074-0543751c4973.jpg",
+      "category": "Web",
+      "tags": [
+        "CodeIgniter4"
+      ],
+      "demoUrl": "",
+      "githubUrl": "https://github.com/zallekun/Pegawai",
+      "featured": true
+    },
+    {
+      "id": "p3",
+      "title": "Top Up Game",
+      "description": "Website top up game online dengan HTML, CSS, dan PHP.",
+      "longDescription": "Website untuk top up game secara online dengan antarmuka yang sederhana dan proses transaksi yang terstruktur.",
+      "image": "https://www.image2url.com/r2/default/images/1782765384917-7b0a7054-c616-4796-96d3-fcb7637ba151.jpg",
+      "category": "Web",
+      "tags": [
+        "HTML",
+        "CSS",
+        "PHP"
+      ],
+      "demoUrl": "https://example.com",
+      "githubUrl": "https://github.com/zallekun/top-up-game",
+      "featured": false
+    },
+    {
+      "id": "p4",
+      "title": "Aplikasi Uang Kas",
+      "description": "Aplikasi desktop uang kas dengan fitur login, CRUD, dan kalkulasi otomatis.",
+      "longDescription": "Aplikasi desktop manajemen uang kas dengan fitur autentikasi login, operasi CRUD transaksi, serta perhitungan otomatis totaling.",
+      "image": "https://www.image2url.com/r2/default/images/1782765462912-1bec7932-6dc9-41a1-a571-83c846a75377.jpg",
+      "category": "Web",
+      "tags": [
+        "Java"
+      ],
+      "demoUrl": "",
+      "githubUrl": "https://github.com/zallekun/aplikasi-uangkas",
+      "featured": false
+    },
+    {
+      "id": "proj-1782763335860",
+      "title": "Generate Surat Lamaran Otomatis",
+      "description": "Website generate surat lamaran otomatis untuk mendukung proses pelamaran pekerjaan.",
+      "longDescription": "Website generate surat lamaran otomatis yang membantu menyusun surat lamaran dengan format yang konsisten, cocok untuk pejuang loker.",
+      "image": "https://www.image2url.com/r2/default/images/1782764910862-50c621ef-10c3-42da-b56d-412f0eecbdfc.png",
+      "category": "Web",
+      "tags": [
+        "HTML"
+      ],
+      "demoUrl": "",
+      "githubUrl": "https://github.com/zallekun/generator-surat-lamaran",
+      "featured": true
+    },
+    {
+      "id": "proj-1782763466972",
+      "title": "Generate CV ATS Otomatis",
+      "description": "Web generate CV ATS friendly untuk memperkuat pelamaran pekerjaan.",
+      "longDescription": "Website pembuat CV ATS friendly yang membantu menyusun CV sesuai standar ATS sehingga lebih mudah melewati filter rekruter.",
+      "image": "https://www.image2url.com/r2/default/images/1782765078782-a0e67b6c-8e8b-4af1-8bba-60b742cc98dd.png",
+      "category": "Web",
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "demoUrl": "",
+      "githubUrl": "https://github.com/zallekun/cv-builder",
+      "featured": true
+    }
+  ],
+  "experiences": [
+    {
+      "id": "e1",
+      "role": "Asisten Dosen Praktikum",
+      "company": "FSI UNJANI",
+      "period": "2024 - 2026",
+      "description": "- Membimbing lebih dari 100 mahasiswa dalam sesi praktikum selama beberapa semester.\n- Praktikum tahun ke-1: Basis Data, Sistem Operasi, Pemrograman Berorientasi Objek 1.\n- Praktikum tahun ke-2: Implementasi Perangkat Lunak, Manajemen Proyek, Sistem Multimedia.\n- Praktikum tahun ke-3: Sistem Operasi, Teknologi Web, Mobile Programming.\n- Bertanggung jawab mengelola sesi lab, menjelaskan materi, dan menilai tugas praktikum.",
+      "skills": [
+        "Ubuntu",
+        "Jira",
+        "AndroidStudio",
+        "CodeIgniter4",
+        "SourceTree",
+        "PHP",
+        "Java",
+        "MySQL"
+      ]
+    }
+  ]
+}
