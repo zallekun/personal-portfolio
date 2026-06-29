@@ -1,0 +1,6 @@
+{
+  "name": "Personal Portfolio",
+  "description": "A customizable interactive personal portfolio website for developers, designers, and creators with a built-in live content editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
