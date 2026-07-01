@@ -9,7 +9,7 @@ export const defaultPortfolioData: PortfolioData = {
     email: 'suryadirezal@gmail.com',
     github: 'https://github.com/zallekun',
     linkedin: 'https://www.linkedin.com/in/rezalsuryadiputra/',
-    instagram: 'https://www.instagram.com',
+    instagram: 'https://www.instagram.com/rezal.here',
     avatarUrl: 'https://www.image2url.com/r2/default/images/1782765548362-eafea67f-1d34-4c4c-bea0-e664f42e4e55.jpeg',
   },
   skills: [
